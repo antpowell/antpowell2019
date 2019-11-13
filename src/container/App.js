@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import './App.css';
-import './animation.css';
-import About from '../components/about/about';
-import Header from '../components/header/header';
-import Projects from '../components/projects/projects';
-import Experience from '../components/experience/experience';
-import Interest from '../components/interest/interest';
-import SplitScreenSlider from '../components/SplitScreenSlider/SplitScreenSlider';
+import React, { Component } from "react";
+import "./App.css";
+import "./animation.css";
+// import About from '../components/about/about';
+// import Header from '../components/header/header';
+// import Experience from '../components/experience/experience';
+// import Interest from '../components/interest/interest';
+import ProjectList from "../components/projects/ProjectList";
+import SplitScreenSlider from "../components/SplitScreenSlider/SplitScreenSlider";
+import ExperienceList from "../components/experience/experienceList";
 
 export class App extends Component {
-	constructor() {
-		super();
-	}
-	render() {
-		return (
-			<div className="App">
-				<SplitScreenSlider />
-				{/* <Header />
+  render() {
+    return (
+      <div className="App">
+        {/* <SplitScreenSlider /> */}
+        <ExperienceList />
+        <ProjectList />
+        {/* <Header />
 			<About />
 			<hr class="mw3 bb bw1 b--black-10" />
 			<Experience/>		
@@ -24,9 +24,9 @@ export class App extends Component {
 			<Projects />
 			<hr class="mw3 bb bw1 b--black-10" />
 			<Interest/> */}
-			</div>
-		);
-	}
+      </div>
+    );
+  }
 }
 
 export default App;
