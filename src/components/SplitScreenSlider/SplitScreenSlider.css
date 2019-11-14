@@ -100,7 +100,7 @@ body {
 .logo {
   position: absolute;
   z-index: 4;
-  top: 5%;
+  bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
   height: 15%

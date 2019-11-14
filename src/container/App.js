@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Suspense, lazy } from "react";
 import "./App.css";
 import "./animation.css";
 // import About from '../components/about/about';

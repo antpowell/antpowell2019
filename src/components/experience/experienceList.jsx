@@ -12,6 +12,8 @@ const workExperienceArray = workExperience.map((job, index) => {
       company={job.company}
       date={job.date}
       description={job.description}
+      key={index}
+      className="w-30"
     ></Experience>
   );
 });
@@ -19,12 +21,14 @@ const workExperienceArray = workExperience.map((job, index) => {
 export default class ExperienceList extends Component {
   render() {
     return (
-      <>
-        <div className="mh7">
-          <h1 className="f1 fw2 b color_accent">Work Experience</h1>
+      <React.Fragment>
+        <div className="mh5 flex flex-wrap">
+          <div className="f-subheadline lh-title fw2 b color_primary w-100">
+            Work Experience
+          </div>
           {workExperienceArray}
         </div>
-      </>
+      </React.Fragment>
     );
   }
 }

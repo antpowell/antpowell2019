@@ -75,7 +75,7 @@ export const resume = {
         },
         description: {
           summary:
-            "Transition existing tightly coupled products to a series of standalone independently deployable applications with Angular to support digital transformation.",
+            "Utilize modern technologies such as Angular to transition existing tightly coupled legacy systems and products to a series of standalone independently deployable applications to support digital transformation.",
           accomplishments: [
             "Created a client-side animated GIF encoder API using TypeScript, web workers, WebGL, and image processing techniques for Babylon.js.",
             "Researched and implemented solutions to reduce client-side rendering of applications.",
@@ -95,9 +95,8 @@ export const resume = {
         },
         description: {
           summary:
-            "Evaluate the impact of class attendance on successful matriculation of STEM majors. Teach students the fundamentals of Computer Science and Object Oriented Programing.",
+            "Evaluate the impact of class attendance on successful matriculation of STEM majors. Teach students the fundamentals of Computer Science and Object Oriented Programing. Develope and manage an Attendance Management System encompassing multiple technologies to include native mobile applications both Android and iOS, internal and client facing desktop applications, NoSQL technologies like Google's Firebase, and more that was utilized University-wide serving over 3000 students and over 70 instructors.",
           accomplishments: [
-            "Developed and managed an Attendance Management System for research purposes that was eventually utilized University-wide at Texas Southern University serving over 3000 students and over 70 instructors.",
             "Collaborate with students, faculty, and staff to improve and add requested features to the attendance system that lead to a 78% increase in adoption rate over a 2-year period.",
             "Taught, managed, and inspired a team of student software developers in the creation, deployment, and daily operation of a University-wide attendance system that lead to 100% of the students achieving gainful employment with reputable companies.",
             "Reduced system run time by 87% by creating companion mobile applications that reduced user input error by over 60%.",
@@ -117,7 +116,7 @@ export const resume = {
         },
         description: {
           summary:
-            "Evaluate the impact of class attendance on successful matriculation of STEM majors. Teach students the fundamentals of Computer Science and Object Oriented Programing.",
+            "Serve the people of the United States, uphold the constitution, and lead Soldiers as a Citizen Soldier maintaining a civilian occupation and  full-time student studies.",
           accomplishments: [
             "Investigate criminal violations of the Uniform Code of Military Justice (UCMJ) in matters of interest to the Armed Forces of the United States.",
             "Analyze evidence using sound judgment and problem-solving skills to obtain accurate conclusions.",
@@ -133,6 +132,7 @@ export const resume = {
         description:
           "Utilized to develop a fully functioning Android application that was in production and utilized by over 5000 students, on average 2500 per semester, and 500+ concurrently. Main responsibility of this application was to allow instructors to take attendance of large classes synchronously",
         link: "",
+        image: "res/images/RollCall_Android.gif",
         languages: ["Java", "Kotlin"]
       },
       {
@@ -141,27 +141,15 @@ export const resume = {
           "Created an accompanying iOS application for Apple users allowing them to communicate with an Attendance Management System that was utilized by over 5000 students, on average 2500 per semester, and 500+ concurrently. Main responsibility of this application was to allow instructors to take attendance of large classes synchronously",
         link:
           "https://apps.apple.com/us/app/roll-call/id1083715040?app=itunes&ign-mpt=uo%3D4",
+        image: "res/images/RollCall_iOS.png",
         languages: ["Swift"]
-      },
-      {
-        name: "Roll Call Attendance Management System",
-        description:
-          "Leveraged this technology as the primary code base for Desktop attendance book creation and analyses for an Attendance Management System that was utilized by over 200 University instructors.",
-        link: "",
-        languages: ["Excel VBA"]
-      },
-      {
-        name: "Roll Call Attendance Management System",
-        description:
-          "Chosen for it's low startup cost and simple and easy implementation, Google Firebase was an the ideal choice to scale our Attendance Management System for use with multiple instructors and students across multiple campuses.",
-        link: "",
-        languages: ["Google Firebase"]
       },
       {
         name: "Roll Call Attendance Management System",
         description:
           "Attendance Management System designed from the ground up to focus on the needs of individual professors with large classes, 45+ students. Developed to take advantage of the mobile devices every 21-century student has in their pocket.",
         link: "",
+        image: "res/images/RollCall_Main.png",
         languages: ["Java", "Kotlin", "Swift", "Google Firebase", "Excel VBA"]
       },
       {
@@ -169,12 +157,15 @@ export const resume = {
         description:
           "Cross-browser client-side mixed reality webGL image processing feature for Babylon.js; an open-source 3D engine built on WebGL, JavaScript, and TypeScript; allowing 3D creators to export animated GIF's of their creations.",
         link: "",
+        image: "res/images/Microsoft_Internship_Project_Preview.gif",
         languages: ["TypeScript", "JavaScript", "GitHub", "NPM", "Node.js"]
       },
       {
         name: "anthony-powell.com",
-        description: "Personal website",
+        description:
+          "Personal website developed in 2016 using Angular.js, Bootstrap, and other web technologies to create a online presents to the world.",
         link: "http://anthony-powell.com",
+        image: "res/images/anthony-powell.com.png",
         languages: ["Angular.js", "TypeScript"]
       }
     ],

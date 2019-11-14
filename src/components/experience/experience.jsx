@@ -6,7 +6,11 @@ const Experience = props => {
 
   const accomplishmentList = description.accomplishments.map(
     (accomplishment, index) => {
-      return <p>{description.accomplishments[index]}</p>;
+      return (
+        <p key={index} className="f6">
+          - {description.accomplishments[index]}
+        </p>
+      );
     }
   );
 
@@ -15,7 +19,7 @@ const Experience = props => {
       <div>
         <h3 className="f3 fw5">
           {title}
-          <div className="company_details color_accent">
+          <div className="company_details color_accent f6">
             <div className="company i b fw2">
               {company.name} {date.start} - {date.end} |
               <div>{company.location}</div>
@@ -23,8 +27,8 @@ const Experience = props => {
             <p className="company_description f6"></p>
           </div>
         </h3>
-        <div className="f4 accomplishments fw3">
-          <p>{description.summary}</p>
+        <div className="accomplishments fw3 lh-title ">
+          <p className="f5 fw4">{description.summary}</p>
           {accomplishmentList}
         </div>
       </div>
