@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c41436347c9d6deb050244a66c68472e",
+    "revision": "bf1316404764403d5a9a53d813f67d64",
     "url": "/antpowell/anthony-powell_react_2019/index.html"
   },
   {
