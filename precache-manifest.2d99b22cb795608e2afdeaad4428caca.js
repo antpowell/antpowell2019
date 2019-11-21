@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "379eb0aa59ab361e140647cee0e432fd",
+    "revision": "99139408710236fb87866e42f0c449d6",
     "url": "/anthony-powell_react_2019/index.html"
   },
   {
-    "revision": "d226abf8f3d58569ca89",
-    "url": "/anthony-powell_react_2019/static/css/main.fd9e284f.chunk.css"
+    "revision": "1b6bebc03e6d9e95444e",
+    "url": "/anthony-powell_react_2019/static/css/main.c88c5d60.chunk.css"
   },
   {
     "revision": "48e1536dd1381b521948",
     "url": "/anthony-powell_react_2019/static/js/2.fe1cbb0e.chunk.js"
   },
   {
-    "revision": "d226abf8f3d58569ca89",
-    "url": "/anthony-powell_react_2019/static/js/main.0015e715.chunk.js"
+    "revision": "1b6bebc03e6d9e95444e",
+    "url": "/anthony-powell_react_2019/static/js/main.c3f84c7b.chunk.js"
   },
   {
     "revision": "4c345e447e65c044af1e",
