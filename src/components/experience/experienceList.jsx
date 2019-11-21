@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Experience from "./experience";
 
 import { resume } from "../resume";
+import LinedTitle from "../lined_title/LinedTitle";
 
 const workExperience = resume.experience.work;
 
@@ -21,11 +22,13 @@ const workExperienceArray = workExperience.map((job, index) => {
 export default class ExperienceList extends Component {
   render() {
     return (
-      <React.Fragment>
-        <div className="mh5 flex flex-wrap">
-          <div className="f-subheadline lh-title fw2 b color_primary w-100">
+      <React.Fragment className="gird">
+        <LinedTitle>Work Experience</LinedTitle>
+        <div className="fl w-third pa2"></div>
+        <div className="mh5 flex flex-wrap fl w-two-thirds pa2">
+          {/* <h1 className="f-subheadline lh-title fw2 b color_primary w-100 ma2 overflow-hidden">
             Work Experience
-          </div>
+          </h1> */}
           {workExperienceArray}
         </div>
       </React.Fragment>

@@ -30,26 +30,22 @@ export default class SplitScreenSlider extends Component {
           <div className="layer bottom color_accent">
             <div className="content-wrap">
               <div className="content-body">
-                <h1 className="f1">
-                  Coder = () => <i></i>
-                </h1>
-                <p className="verbiage f2 fw100S">
+                <p className="f7 measure-narrow f2-l fw1 lh-solid lh-title-ns">
                   {resume.description.about.developer.brief}
                 </p>
               </div>
-              <img src={casual_img} alt="My Army uniform" />
-              <UnDrawDeveloper className="z-2 fr w-third pa6 o-40"></UnDrawDeveloper>
+              <img src={casual_img} alt="casual look" />
+              {/* <UnDrawDeveloper className="z-2 fr w-third-ns pa6 o-40"></UnDrawDeveloper> */}
             </div>
           </div>
           <div className="layer top" ref={this.topLayer}>
             <div className="content-wrap">
               <div className="content-body">
-                <h1>Soldier</h1>
-                <p className="verbiage f2">
+                <p className="f7 measure-narrow  f2-l fw1 lh-solid lh-title-ns">
                   {resume.description.about.military.brief}
                 </p>
               </div>
-              <img src={uniform_img} alt="My casual look" />
+              <img src={uniform_img} alt="Military uniform" />
             </div>
           </div>
           <div className="handle" ref={this.handle}></div>

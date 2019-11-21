@@ -17,18 +17,18 @@ const Experience = props => {
   return (
     <>
       <div>
-        <h3 className="f3 fw5">
+        <h1 className="fw2 ma0">
           {title}
-          <div className="company_details color_accent f6">
-            <div className="company i b fw2">
-              {company.name} {date.start} - {date.end} |
-              <div>{company.location}</div>
-            </div>
+          <span className="company_details color_accent f5 ">
+            <h5 className="company i fw2 mb2">
+              {company.name} {date.start} - {date.end} |{" "}
+              <span>{company.location}</span>
+            </h5>
             <p className="company_description f6"></p>
-          </div>
-        </h3>
+          </span>
+        </h1>
         <div className="accomplishments fw3 lh-title ">
-          <p className="f5 fw4">{description.summary}</p>
+          <p className="f5 fw4 mb2">{description.summary}</p>
           {accomplishmentList}
         </div>
       </div>

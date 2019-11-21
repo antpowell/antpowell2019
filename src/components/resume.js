@@ -12,10 +12,10 @@ export const resume = {
     },
     email: "powell.anthony.e@gmail.com",
     website: "anthony-powell.com",
-    personal_logo: "../res/images/logo2.png",
+    personal_logo: "/src/res/images/logo2.png",
     personal_img: {
-      uniform: "../res/Uniform_2_no_bg.png",
-      casual: "../res/Casual_2_no_bg.png"
+      uniform: "/src/res/Uniform_2_no_bg.png",
+      casual: "/src/res/Casual_2_no_bg.png"
     }
   },
   description: {
@@ -23,14 +23,14 @@ export const resume = {
     about: {
       general: {
         full:
-          "I am a proud graduate of Texas Southern University, a university that was originally founded to educate students of African-American descent, also known as a HBCU, where I graduated with both B.S. and M.S. in Computer Science. I have worked for two Fortune500 companies, one of which being among the big five tech companies, and operated as a co-founder and lead engineer of a small education technology start-up. I have also tough students of varying ages and school levels, to include university level, the fundamentals of Computer Science and coding. I love everything tech and cool and want to bring as much of that world to underserved communities like the ones I was raised in. I also bring a capacity to accomplish any mission assigned to me, work independently or within a group, and give purpose, direction, and motivation to others thanks to the skills I acquired in my 12+ years serving in the United States Armed Forces. ",
+          "I am a proud graduate of a historic university, originally founded to educate students of African-American descent and one of the greatest HBCU's, Texas Southern University. I graduated with both B.S., 2017, and M.S., 2020, in Computer Science. I have had the pleasure of working for both Verizon and Microsoft solving tough problems dealing with client side image processing, Babylon.js and webGL, creating NPM libraries, and full stack web applications. I co-founded and was lead engineer of a small education technology start-up where we attacked the problem of class attendance in higher education. Taking a bottom up approach giving instructors flexibility, more time to teach, and an easier way to monitor macro and micro attendance trends in their classrooms. Empowering the next generations is very important to me, that is why I have taught over 200 students, from grade school to university level, the fundamentals of Computer Science and coding. I love everything tech and want to bring as much of that world to underserved communities like the ones I was raised in. With 10+ years enlisted in with the United States Army National Guard I also bring a capacity to accomplish any mission assigned to me, work independently or within a group, and give purpose, direction, and motivation to others thanks to the skills I acquired serving.",
         brief: ""
       },
       developer: {
         full:
           'I\'m currently working on my M.S. Computer Science at Texas Southern University where he also was awarded his B.S. Computer Science. During my time at TSU, I was a Graduate Research Assistant, Lead System Engineer, Software Developer, and Team Leader for the Center for Research on Complex Networks Education Outreach Software Development section. Under the guidance of a mentor, Dr. Oscar Criner, I led a team of undergraduate and graduate developers in the development of an attendance management system that was adopted by professors University-wide. My passion for software development, technology, and teaching led to me being the first student from TSU to acquire the Lead position with Google Developer Groups - Houston and co-founding the largest student-run Computer Science organization as an undergraduate, the Mobile Application Development Group. My presentation, "Dynamic Data Analytics for Higher Education", won first place Oral Presenter in Computer Sciences & Information Management at the 2017 Emerging Researchers National Conference in STEM for my research on the relationship between class attendance and successful matriculation through STEM degrees in higher education and the creation of an Attendance Management System to help track and manage attendance at my University.',
         brief:
-          "Software Engineer with a passion for learning, technology, and solving problems."
+          "Software Engineer with a passion for solving systematic problems, technology, and learning."
       },
       military: {
         full:
@@ -95,7 +95,7 @@ export const resume = {
         },
         description: {
           summary:
-            "Evaluate the impact of class attendance on successful matriculation of STEM majors. Teach students the fundamentals of Computer Science and Object Oriented Programing. Develope and manage an Attendance Management System encompassing multiple technologies to include native mobile applications both Android and iOS, internal and client facing desktop applications, NoSQL technologies like Google's Firebase, and more that was utilized University-wide serving over 3000 students and over 70 instructors.",
+            "Evaluate the impact of class attendance on successful matriculation of STEM majors. Teach students the fundamentals of Computer Science and Object Oriented Programing. Developed and managed an Attendance Management System encompassing multiple technologies to include native mobile applications both Android and iOS, internal and client facing desktop applications, NoSQL technologies like Google's Firebase, and more that was utilized University-wide serving over 3000 students and over 70 instructors.",
           accomplishments: [
             "Collaborate with students, faculty, and staff to improve and add requested features to the attendance system that lead to a 78% increase in adoption rate over a 2-year period.",
             "Taught, managed, and inspired a team of student software developers in the creation, deployment, and daily operation of a University-wide attendance system that lead to 100% of the students achieving gainful employment with reputable companies.",
@@ -128,10 +128,42 @@ export const resume = {
     ],
     projects: [
       {
+        name: "Roll Call Attendance Management System",
+        description:
+          "Attendance Management System designed from the ground up to focus on the needs of individual professors with large classes, 45+ students. Developed to take advantage of the mobile devices every 21-century student has in their pocket.",
+        link: "https://shocking-crypt-40639.herokuapp.com",
+        image: "res/images/RollCall_Product_Mockup_small.png",
+        languages: ["Java", "Kotlin", "Swift", "Google Firebase", "Excel VBA"]
+      },
+      {
+        name: "Babylon.js Animated GIF Exporter",
+        description:
+          "Cross-browser client-side mixed reality webGL image processing library for Babylon.js; an open-source 3D engine built on WebGL, JavaScript, and TypeScript; allowing 3D creators to export animated GIF's of their creations.",
+        link: "https://github.com/BabylonJS/Extensions/tree/master/GIFExporter",
+        image: "res/images/Microsoft_Internship_Project_Preview.gif",
+        languages: ["TypeScript", "JavaScript", "GitHub", "NPM", "Node.js"]
+      },
+      {
+        name: "Blacks in Technology Website Template",
+        description:
+          "A website template created for an amazing group that, at the time, had a very out dated site. Utilizing Angular.js, Bootstrap, Scaffolding, and Single Page Application Hosting.",
+        link: "http://antpowell.github.io/Blacks-In-Tech/#/",
+        image: "res/images/Web_App_Template.gif",
+        languages: ["Angular.js", "TypeScript"]
+      },
+      {
+        name: "anthony-powell.com",
+        description:
+          "Personal website developed in 2016 using Angular.js, Bootstrap, and other web technologies to create a online presents to the world.",
+        link: "http://anthony-powell.com",
+        image: "res/images/anthony-powell.com.png",
+        languages: ["Angular.js", "TypeScript"]
+      },
+      {
         name: "Roll Call Attendance Management Android Application",
         description:
           "Utilized to develop a fully functioning Android application that was in production and utilized by over 5000 students, on average 2500 per semester, and 500+ concurrently. Main responsibility of this application was to allow instructors to take attendance of large classes synchronously",
-        link: "",
+        link: "https://github.com/antpowell/Roll_Call",
         image: "res/images/RollCall_Android.gif",
         languages: ["Java", "Kotlin"]
       },
@@ -141,32 +173,8 @@ export const resume = {
           "Created an accompanying iOS application for Apple users allowing them to communicate with an Attendance Management System that was utilized by over 5000 students, on average 2500 per semester, and 500+ concurrently. Main responsibility of this application was to allow instructors to take attendance of large classes synchronously",
         link:
           "https://apps.apple.com/us/app/roll-call/id1083715040?app=itunes&ign-mpt=uo%3D4",
-        image: "res/images/RollCall_iOS.png",
+        image: "res/images/3.jpg",
         languages: ["Swift"]
-      },
-      {
-        name: "Roll Call Attendance Management System",
-        description:
-          "Attendance Management System designed from the ground up to focus on the needs of individual professors with large classes, 45+ students. Developed to take advantage of the mobile devices every 21-century student has in their pocket.",
-        link: "",
-        image: "res/images/RollCall_Main.png",
-        languages: ["Java", "Kotlin", "Swift", "Google Firebase", "Excel VBA"]
-      },
-      {
-        name: "Babylon.js Animated GIF Exporter",
-        description:
-          "Cross-browser client-side mixed reality webGL image processing feature for Babylon.js; an open-source 3D engine built on WebGL, JavaScript, and TypeScript; allowing 3D creators to export animated GIF's of their creations.",
-        link: "",
-        image: "res/images/Microsoft_Internship_Project_Preview.gif",
-        languages: ["TypeScript", "JavaScript", "GitHub", "NPM", "Node.js"]
-      },
-      {
-        name: "anthony-powell.com",
-        description:
-          "Personal website developed in 2016 using Angular.js, Bootstrap, and other web technologies to create a online presents to the world.",
-        link: "http://anthony-powell.com",
-        image: "res/images/anthony-powell.com.png",
-        languages: ["Angular.js", "TypeScript"]
       }
     ],
     additional: [

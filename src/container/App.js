@@ -1,4 +1,4 @@
-import React, { Component, Suspense, lazy } from "react";
+import React, { Component } from "react";
 import "./App.css";
 import "./animation.css";
 // import About from '../components/about/about';
@@ -7,23 +7,19 @@ import "./animation.css";
 // import Interest from '../components/interest/interest';
 import ProjectList from "../components/projects/ProjectList";
 import SplitScreenSlider from "../components/SplitScreenSlider/SplitScreenSlider";
-import ExperienceList from "../components/experience/experienceList";
+import Footer from "../components/footer/Footer";
+import About from "../components/about/about";
+import ResumeView from "../components/resumeView/ResumeView";
 
 export class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <SplitScreenSlider /> */}
-        <ExperienceList />
+        <SplitScreenSlider />
+        <About />
         <ProjectList />
-        {/* <Header />
-			<About />
-			<hr class="mw3 bb bw1 b--black-10" />
-			<Experience/>		
-			<hr class="mw3 bb bw1 b--black-10" />
-			<Projects />
-			<hr class="mw3 bb bw1 b--black-10" />
-			<Interest/> */}
+        <ResumeView />
+        <Footer />
       </div>
     );
   }

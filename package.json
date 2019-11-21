@@ -1,17 +1,24 @@
 {
-  "name": "resume",
+  "name": "anthony-powell.com",
+  "homepage": "https://antpowell.github.io/anthony-powell_react_2019/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.0.0"
+    "gh-pages": "^2.1.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.0.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docs": "jsdoc - c jsdoc.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,6 +36,19 @@
     ]
   },
   "devDependencies": {
-    "tachyons": "^4.10.0"
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "tachyons": "^4.11.1"
+  },
+  "description": "This project utilizes React.js because it is less opinionated than Angular 2+ and allows for me develop my personal site as a single developer without a lot of overhead.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antpowell/anthony-powell_react_2019.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antpowell/anthony-powell_react_2019/issues"
   }
 }
