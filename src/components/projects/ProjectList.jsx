@@ -7,7 +7,7 @@ import LinedTitle from "../lined_title/LinedTitle";
 export default class ProjectList extends Component {
   render() {
     return (
-      <React.Fragment>
+      <section>
         <LinedTitle>Projects</LinedTitle>
         <div className="mh5 flex flex-wrap">
           {projectArray}
@@ -15,7 +15,7 @@ export default class ProjectList extends Component {
             Project Gallery
           </div>
         </div>
-      </React.Fragment>
+      </section>
     );
   }
 }

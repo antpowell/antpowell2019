@@ -7,6 +7,7 @@
 	--secondary_color: #191e3a;
 	--accent_color: #5f6792;
 	--bg_color: #9999a1;
+	scroll-snap-type: y mandatory;
 }
 
 * {
@@ -74,4 +75,12 @@ body {
 	-moz-transition: all ease-in 0.3s;
 	-ms-transition: all ease-in 0.3s;
 	-o-transition: all ease-in 0.3s;
+}
+
+.snapHere {
+	scroll-snap-align: start;
+}
+
+section {
+	scroll-snap-align: start;
 }

@@ -5,13 +5,11 @@ import { resume } from "../resume";
 import casual_img from "../../res/Casual_2_no_bg.png";
 import uniform_img from "../../res/Uniform_2_no_bg.png";
 import { ReactComponent as Logo } from "../../res/images/slice7.svg";
-import { ReactComponent as UnDrawDeveloper } from "../../res/undraw_developer_activity_bv83.svg";
+// import { ReactComponent as UnDrawDeveloper } from "../../res/undraw_developer_activity_bv83.svg";
 
 export default class SplitScreenSlider extends Component {
   constructor(props) {
     super();
-
-    console.log(props.imgs);
 
     this.wrapper = React.createRef();
     this.handle = React.createRef();
@@ -19,7 +17,6 @@ export default class SplitScreenSlider extends Component {
   }
 
   componentDidMount() {
-    console.log(this.wrapper.current.className.indexOf("skewed") !== -1);
     this.handleTracker();
   }
 
