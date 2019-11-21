@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99139408710236fb87866e42f0c449d6",
+    "revision": "4e1ff3650f8646ae0d97c5bd1a312f03",
     "url": "/anthony-powell_react_2019/index.html"
   },
   {
-    "revision": "1b6bebc03e6d9e95444e",
-    "url": "/anthony-powell_react_2019/static/css/main.c88c5d60.chunk.css"
+    "revision": "3fc560f4cdaed1e96771",
+    "url": "/anthony-powell_react_2019/static/css/main.3dc8a1b4.chunk.css"
   },
   {
-    "revision": "48e1536dd1381b521948",
-    "url": "/anthony-powell_react_2019/static/js/2.fe1cbb0e.chunk.js"
+    "revision": "082fc3837a19a820df37",
+    "url": "/anthony-powell_react_2019/static/js/2.14846663.chunk.js"
   },
   {
-    "revision": "1b6bebc03e6d9e95444e",
-    "url": "/anthony-powell_react_2019/static/js/main.c3f84c7b.chunk.js"
+    "revision": "3fc560f4cdaed1e96771",
+    "url": "/anthony-powell_react_2019/static/js/main.0920dc54.chunk.js"
   },
   {
     "revision": "4c345e447e65c044af1e",
@@ -50,14 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cdedba854c59e2d7a69380b8a380c500",
     "url": "/anthony-powell_react_2019/static/media/RollCall_iOS.cdedba85.png"
-  },
-  {
-    "revision": "5c06e04dd46f109486546cab20039748",
-    "url": "/anthony-powell_react_2019/static/media/Signature_Pressure.5c06e04d.svg"
-  },
-  {
-    "revision": "34a01bb0dad4741302fdc04e50a553da",
-    "url": "/anthony-powell_react_2019/static/media/Signature_Unclear.34a01bb0.svg"
   },
   {
     "revision": "6f0fa694f8fa95168e9c87a7d62d6012",
