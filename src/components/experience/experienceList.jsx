@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Experience from "./experience";
 
 import { resume } from "../resume";
-import LinedTitle from "../lined_title/LinedTitle";
+import LinedTitle from "../LinedTitle/LinedTitle";
 
 const workExperience = resume.experience.work;
 

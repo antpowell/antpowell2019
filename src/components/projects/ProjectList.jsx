@@ -1,37 +1,54 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Project from "./project";
 
 import { resume } from "../resume";
-import LinedTitle from "../lined_title/LinedTitle";
 
-export default class ProjectList extends Component {
-  render() {
-    return (
-      <section>
-        <LinedTitle>Projects</LinedTitle>
-        <div className="mh5 flex flex-wrap">
-          {projectArray}
-          <div className="f5 fl link b--color_accent ph3 pv2 dib color_accent hover-bg-primary b ba br2 center mb6">
-            Project Gallery
-          </div>
-        </div>
-      </section>
+const ProjectList = ({ numberOfProjects, isAllProjectsShowing }) => {
+  const [projects] = useState(resume.experience.projects);
+  const [projectsArray, setProjectsArray] = useState([]);
+
+  useEffect(() => {
+    getProjectArray(numberOfProjects);
+    return () => {};
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const scrollSnap = {
+    scrollSnapAlign: "none"
+  };
+
+  const getProjectArray = () => {
+    setProjectsArray(
+      projects.slice(0, numberOfProjects).map((project, index) => {
+        return (
+          <Project
+            name={project.name}
+            description={project.description}
+            link={project.link}
+            image={project.image}
+            languages={project.languages}
+            key={index}
+          ></Project>
+        );
+      })
     );
-  }
-}
+  };
 
-const projects = resume.experience.projects;
-
-const size = 3;
-const projectArray = projects.slice(0, size).map((project, index) => {
   return (
-    <Project
-      name={project.name}
-      description={project.description}
-      link={project.link}
-      image={project.image}
-      languages={project.languages}
-      key={index}
-    ></Project>
+    <div className="">
+      <div className="">
+        <h1 className="tc fw2 f3 f1-m f-subheadline-l pa0 ma0">Projects</h1>
+        <div className="mh5 flex flex-wrap ">{projectsArray}</div>
+        <Link
+          to={!isAllProjectsShowing ? "/projects" : "/"}
+          className="f5 link b--color_accent ph3 pv2 color_accent hover-bg-primary b ba br2 center mb6 tc w5 db m3"
+        >
+          {!isAllProjectsShowing ? "More Projects" : "Home"}
+        </Link>
+      </div>
+    </div>
   );
-});
+};
+
+export default ProjectList;

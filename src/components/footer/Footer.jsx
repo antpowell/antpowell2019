@@ -3,10 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="color_primary flex items-center justify-center color_primary w-100">
-      <section className="w-25 pa3 tc mw-100">
-        Copyright © Anthony Powell 2019
-      </section>
-      <section className="w-25 pa3 tc mw-100">
+      <div className="w-25 pa3 tc mw-100">Copyright © Anthony Powell 2019</div>
+      <div className="w-25 pa3 tc mw-100">
         Made with{" "}
         <span role="img" aria-label="heart">
           💖
@@ -15,10 +13,10 @@ const Footer = () => {
         <span role="img" aria-label="peace sign">
           ✌🏿
         </span>
-      </section>
-      <section className="w-25 pa3 tc mw-100"></section>
-      <section className="w-25 pa3 mw-100">
-        <h3 className="ma0">Featured / Post Image Credit Section:</h3>
+      </div>
+      <div className="w-25 pa3 tc mw-100"></div>
+      <div className="w-25 pa3 mw-100">
+        <h3 className="ma0">Featured / Post Image Credit div:</h3>
         <span>
           This website “anthony-powell.com” uses images from following vector
           and images stock websites.
@@ -40,7 +38,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-      </section>
+      </div>
     </footer>
   );
 };

@@ -23,11 +23,11 @@ export default class SplitScreenSlider extends Component {
   render() {
     return (
       <>
-        <section className="skewed" id="wrapper" ref={this.wrapper}>
+        <div className="skewed" id="wrapper" ref={this.wrapper}>
           <div className="layer bottom color_accent">
             <div className="content-wrap">
               <div className="content-body">
-                <p className="f7 measure-narrow f2-l fw1 lh-solid lh-title-ns">
+                <p className="f5 measure-narrow f2-l fw1 lh-solid lh-title-ns">
                   {resume.description.about.developer.brief}
                 </p>
               </div>
@@ -38,7 +38,7 @@ export default class SplitScreenSlider extends Component {
           <div className="layer top" ref={this.topLayer}>
             <div className="content-wrap">
               <div className="content-body">
-                <p className="f7 measure-narrow  f2-l fw1 lh-solid lh-title-ns">
+                <p className="f5 measure-narrow  f2-l fw1 lh-solid lh-title-ns">
                   {resume.description.about.military.brief}
                 </p>
               </div>
@@ -47,7 +47,7 @@ export default class SplitScreenSlider extends Component {
           </div>
           <div className="handle" ref={this.handle}></div>
           <Logo className="logo"></Logo>
-        </section>
+        </div>
       </>
     );
   }

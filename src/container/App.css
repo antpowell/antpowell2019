@@ -77,10 +77,14 @@ body {
 	-o-transition: all ease-in 0.3s;
 }
 
-.snapHere {
+/* .snapStart {
 	scroll-snap-align: start;
 }
 
-section {
+.snapMid {
+	scroll-snap-align: center;
+} */
+
+/* section {
 	scroll-snap-align: start;
-}
+} */

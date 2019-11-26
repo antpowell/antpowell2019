@@ -8,11 +8,7 @@ const Project = props => {
       <div className="dib br3 pa3 ma2 grow w-thid w-30-l tc">
         <a href={link} className="link color_accent">
           <img
-            src={
-              image === ""
-                ? "http://placekitten.com/g/600/300"
-                : require("../../" + image)
-            }
+            src={require("../../" + image)}
             className="db br2 br--top h6 center"
             alt={image === "" ? "kitten looking menacing." : name}
           />
