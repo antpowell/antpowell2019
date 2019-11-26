@@ -21,7 +21,7 @@ const Project = props => {
                 </h1>
               </div>
             </div>
-            <p className="f6 lh-copy measure mt2 mid-gray color_primary vh-25">
+            <p className="f6 lh-copy measure mt2 mid-gray color_primary vh-25 tc center">
               {description}
             </p>
           </div>
