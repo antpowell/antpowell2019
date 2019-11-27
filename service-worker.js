@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anthony-powell_react_2019/precache-manifest.00ccc12f16f808bd520cd48853854c61.js"
+  "/anthony-powell_react_2019/precache-manifest.a74e1e350ef2c10f6614b73f9197e55c.js"
 );
 
 self.addEventListener('message', (event) => {
