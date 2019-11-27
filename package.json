@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/plugin-syntax-jsx": "^7.7.4",
     "tachyons": "^4.11.1"
   },
   "description": "This project utilizes React.js because it is less opinionated than Angular 2+ and allows for me develop my personal site as a single developer without a lot of overhead.",

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Project = props => {
-  const { name, description, link = "#", image, languages } = props;
+  const { name, description, link = "#", image } = props;
 
   return (
     <>
