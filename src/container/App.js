@@ -11,10 +11,10 @@ export class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/projects"}>
+          <Route path="/projects">
             <ProjectsView numberOfProjects={6} isAllProjectsShowing={true} />
           </Route>
-          <Route exact path={process.env.PUBLIC_URL + "/"}>
+          <Route exact path="/">
             <Home />
           </Route>
           {/* <Route to="/resume" component={ResumeViewer}></Route> */}

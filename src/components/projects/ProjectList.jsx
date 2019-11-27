@@ -37,11 +37,7 @@ const ProjectList = ({ numberOfProjects, isAllProjectsShowing }) => {
         <h1 className="tc fw2 f3 f1-m f-subheadline-l pa0 ma0">Projects</h1>
         <div className="mh5 flex flex-wrap ">{projectsArray}</div>
         <Link
-          to={
-            !isAllProjectsShowing
-              ? process.env.PUBLIC_URL + "/projects"
-              : process.env.PUBLIC_URL + "/"
-          }
+          to={!isAllProjectsShowing ? "/projects" : "/"}
           className="f5 link b--color_accent ph3 pv2 color_accent hover-bg-primary b ba br2 center mb6 tc w5 db m3"
         >
           {!isAllProjectsShowing ? "More Projects" : "Back Home"}
