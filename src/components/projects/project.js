@@ -5,7 +5,7 @@ const Project = props => {
 
   return (
     <>
-      <div className="dib br3 pa3 ma2 grow w-thid w-30-l tc">
+      <div className="dib br3 pa3 ma2 grow w-thid w-30-l tc flex">
         <a href={link} className="link color_accent">
           <img
             src={require("../../" + image)}

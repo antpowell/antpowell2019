@@ -27,7 +27,7 @@ export default class SplitScreenSlider extends Component {
           <div className="layer bottom color_accent">
             <div className="content-wrap">
               <div className="content-body">
-                <p className="f5 measure-narrow f2-l fw1 lh-solid lh-title-ns">
+                <p className="f5 measure-narrow f4-m f2-l fw1 lh-solid lh-title-ns">
                   {resume.description.about.developer.brief}
                 </p>
               </div>
@@ -38,7 +38,7 @@ export default class SplitScreenSlider extends Component {
           <div className="layer top" ref={this.topLayer}>
             <div className="content-wrap">
               <div className="content-body">
-                <p className="f5 measure-narrow  f2-l fw1 lh-solid lh-title-ns">
+                <p className="f5 measure-narrow f4-m f2-l fw1 lh-solid lh-title-ns">
                   {resume.description.about.military.brief}
                 </p>
               </div>
@@ -46,8 +46,8 @@ export default class SplitScreenSlider extends Component {
             </div>
           </div>
           <div className="handle" ref={this.handle}></div>
-          <Logo className="logo"></Logo>
         </div>
+        <Logo className="logo" />>
       </>
     );
   }

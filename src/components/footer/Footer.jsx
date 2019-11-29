@@ -8,20 +8,17 @@ const Footer = () => {
         Made with{" "}
         <span role="img" aria-label="heart">
           💖
-        </span>{" "}
-        by myself, Anthony Powell{" "}
-        <span role="img" aria-label="peace sign">
-          ✌🏿
         </span>
+        <span role="img" aria-label="peace sign"></span>
       </div>
-      <div className="w-25 pa3 tc mw-100"></div>
+
       <div className="w-25 pa3 mw-100">
         <h3 className="ma0">Featured / Post Image Credit div:</h3>
         <span>
           This website “anthony-powell.com” uses images from following vector
           and images stock websites.
         </span>
-        <ul>
+        <ul className="flex flex-wrap items-center justify-between list">
           <li>
             <a href="http://www.freepik.com" className="link color_primary">
               www.freepik.com
@@ -35,6 +32,14 @@ const Footer = () => {
           <li>
             <a href="http://www.unsplash.com" className="link color_primary">
               www.unsplash.com
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://ianlunn.github.io/Hover/"
+              className="link color_primary"
+            >
+              Hover.css
             </a>
           </li>
         </ul>

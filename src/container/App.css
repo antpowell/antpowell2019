@@ -49,14 +49,16 @@ body {
 	font-family: 'Lato';
 }
 
-.App {}
+.logo {
+	z-index: 4;
+}
 
 .logo path {
-	fill: var(--accent_color) !important;
+	fill: var(--secondary_color) !important;
 }
 
 .logo text {
-	fill: var(--accent_color) !important;
+	fill: var(--secondary_color) !important;
 }
 
 .hover-bg-accent:hover {
@@ -77,14 +79,103 @@ body {
 	-o-transition: all ease-in 0.3s;
 }
 
-/* .snapStart {
-	scroll-snap-align: start;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes swing {
+	15% {
+		-webkit-transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+	30% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+	50% {
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	}
+
+	65% {
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+
+	80% {
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
 }
 
-.snapMid {
-	scroll-snap-align: center;
-} */
+@keyframes swing {
+	15% {
+		-webkit-transform: translateX(5px);
+		transform: translateX(5px);
+	}
 
-/* section {
-	scroll-snap-align: start;
-} */
+	30% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+	50% {
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	}
+
+	65% {
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+
+	80% {
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+
+.swing {
+	-webkit-animation: swing 1s ease;
+	animation: swing 1s ease;
+	/* -webkit-animation-iteration-count: 1; */
+	/* animation-iteration-count: 1; */
+}
