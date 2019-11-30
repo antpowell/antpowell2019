@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dc638d2e35b84580e91d933e95e9a70",
+    "revision": "afd516b77fcfeda44cad22d62984eff7",
     "url": "/anthony-powell_react_2019/index.html"
   },
   {
-    "revision": "3a9a4f2ae717c8887e67",
-    "url": "/anthony-powell_react_2019/static/css/main.f3625053.chunk.css"
+    "revision": "892e95f0f825a93101ed",
+    "url": "/anthony-powell_react_2019/static/css/2.28ac299b.chunk.css"
   },
   {
-    "revision": "80e1d84121c8bc258f06",
-    "url": "/anthony-powell_react_2019/static/js/2.83740e0c.chunk.js"
+    "revision": "0002f5696bc70c0508ec",
+    "url": "/anthony-powell_react_2019/static/css/main.aa26bce6.chunk.css"
   },
   {
-    "revision": "3a9a4f2ae717c8887e67",
-    "url": "/anthony-powell_react_2019/static/js/main.d8898686.chunk.js"
+    "revision": "892e95f0f825a93101ed",
+    "url": "/anthony-powell_react_2019/static/js/2.50bfc9a9.chunk.js"
+  },
+  {
+    "revision": "0002f5696bc70c0508ec",
+    "url": "/anthony-powell_react_2019/static/js/main.70291c4d.chunk.js"
   },
   {
     "revision": "4c345e447e65c044af1e",
