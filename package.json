@@ -1,6 +1,6 @@
 {
   "name": "anthony-powell.com",
-  "homepage": "https://antpowell.github.io/anthony-powell_react_2019/",
+  "homepage": "https://antpowell.github.io/",
   "version": "0.1.2",
   "private": true,
   "dependencies": {
@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "docs": "jsdoc - c jsdoc.json",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME ./build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
