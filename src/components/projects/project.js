@@ -1,10 +1,11 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const Project = props => {
   const { name, description, link = "#", image } = props;
 
   return (
-    <>
+    <Fade bottom cascade>
       <div className="dib br3 pa3 ma2 grow w-thid w-30-l tc flex">
         <a href={link} className="link color_accent">
           <img
@@ -27,7 +28,7 @@ const Project = props => {
           </div>
         </a>
       </div>
-    </>
+    </Fade>
   );
 };
 

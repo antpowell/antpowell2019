@@ -25,7 +25,7 @@ const ProjectList = ({ numberOfProjects, isAllProjectsShowing }) => {
             image={project.image}
             languages={project.languages}
             key={index}
-          ></Project>
+          />
         );
       })
     );

@@ -21,10 +21,6 @@ const ProjectsView = props => {
     transition: "opacity .15s ease-in"
   };
 
-  const strokWidth = {
-    strokeWidth: "2"
-  };
-
   return (
     <header>
       <div className="ma4 absolute flex items-center">

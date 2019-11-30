@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {
   CSSTransition as CT,
@@ -10,9 +10,9 @@ import ProjectsView from "../components/Projects/ProjectsView";
 import "./App.css";
 import "./animation.css";
 
-export class App extends Component {
-  render() {
-    return (
+const App = () => {
+  return (
+    <div id="App">
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/projects">
@@ -25,14 +25,14 @@ export class App extends Component {
         </Switch>
         <Footer />
         {/* // TODO: implement page transition animation
-            <TG>
-            CT key={location.key} timeout={300} className="fade">
-
-            </CT>
-             </TG> */}
+              <TG>
+              CT key={location.key} timeout={300} className="fade">
+  
+              </CT>
+               </TG> */}
       </Router>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default App;
