@@ -1,9 +1,15 @@
 import React from "react";
-import ButtonGroup from "../ButtonGroup/button_group";
+import ButtonGroup from "../ButtonGroup/ButtonGroup";
 import { resume } from "../resume";
 import Fade from "react-reveal/Fade";
 
 const About = () => {
+  const btnGrpOptions = {
+    names: ["General", "Developer", "Military"],
+    color: "--color_primary",
+    bgColor: "--color_secondary"
+  };
+
   return (
     <Fade bottom cascade>
       <div className="vh-100 flex items-center justify-center">
@@ -28,11 +34,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <ButtonGroup>
-            <button>Military</button>
-            <button>General</button>
-            <button>Developer</button>
-          </ButtonGroup>
+          <div className="w-100">
+            {/* <ButtonGroup {...btnGrpOptions} className="w-100" /> */}
+          </div>
         </div>
       </div>
     </Fade>

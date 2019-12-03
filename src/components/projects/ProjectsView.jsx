@@ -4,6 +4,7 @@ import ProjectList from "./ProjectList";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import "hover.css";
+import Fade from "react-reveal/Fade";
 
 const ProjectsView = props => {
   const [hover, setHover] = useState(false);
@@ -39,7 +40,9 @@ const ProjectsView = props => {
           HOME
         </span>
       </div>
-      <ProjectList {...props} />
+      <Fade bottom>
+        <ProjectList {...props} />
+      </Fade>
     </header>
   );
 };

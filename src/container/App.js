@@ -9,10 +9,17 @@ import Home from "../components/Home/Home";
 import ProjectsView from "../components/Projects/ProjectsView";
 import "./App.css";
 import "./animation.css";
+import ButtonGroup from "../components/ButtonGroup/ButtonGroup";
 
 const App = () => {
+  const btnGrpOptions = {
+    names: ["General", "Developer", "Military"],
+    color: "--color_primary",
+    bgColor: "--color_secondary"
+  };
   return (
     <div id="App">
+      {/* <ButtonGroup {...btnGrpOptions} /> */}
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/projects">
@@ -28,7 +35,7 @@ const App = () => {
               <TG>
               CT key={location.key} timeout={300} className="fade">
   
-              </CT>
+              <CT></CT>
                </TG> */}
       </Router>
     </div>

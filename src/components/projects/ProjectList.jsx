@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Project from "./project";
-
 import { resume } from "../resume";
 
 const ProjectList = ({ numberOfProjects, isAllProjectsShowing }) => {

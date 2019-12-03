@@ -152,10 +152,10 @@ export const resume = {
         languages: ["Angular.js", "TypeScript"]
       },
       {
-        name: "anthony-powell.com",
+        name: "anthony-powell.com (Version 1)",
         description:
           "Personal website developed in 2016 using Angular.js, Bootstrap, and other web technologies to present my online presents to the world.",
-        link: "http://anthony-powell.com",
+        link: "https://antpowell.github.io/anthony-powell.com/",
         image: "res/images/anthony-powell.com.png",
         languages: ["Angular.js", "TypeScript"]
       },
