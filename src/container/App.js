@@ -20,7 +20,6 @@ const App = () => {
   };
   return (
     <div id="App">
-      {/* <ButtonGroup {...btnGrpOptions} /> */}1.3.10
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/projects">
