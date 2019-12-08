@@ -11,6 +11,8 @@ import "./App.css";
 import "./animation.css";
 import ButtonGroup from "../components/ButtonGroup/ButtonGroup";
 import Error from "../components/error/Error";
+import PDFViewer from "./PDFViewer/PDFViewer";
+import SnappingSection from "../components/SnappingSection/SnappingSection";
 
 const App = () => {
   const btnGrpOptions = {
@@ -18,6 +20,7 @@ const App = () => {
     color: "--color_primary",
     bgColor: "--color_secondary"
   };
+
   return (
     <div id="App">
       <Router basename={process.env.PUBLIC_URL}>
@@ -28,10 +31,12 @@ const App = () => {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route to="/resume" component={PDFViewer}></Route>
           <Route component={Error} />
-          {/* <Route to="/resume" component={ResumeViewer}></Route> */}
         </Switch>
-        <Footer />
+        <SnappingSection>
+          <Footer />
+        </SnappingSection>
         {/* // TODO: implement page transition animation
               <TG>
               CT key={location.key} timeout={300} className="fade">
