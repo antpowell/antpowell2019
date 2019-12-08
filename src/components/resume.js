@@ -54,7 +54,7 @@ export const resume = {
         },
         description: {
           summary:
-            "Designed, developed, and published a cross-browser compatible client-side mixed reality image feature using TypeScript for Babylon.js, an open-source 3D engine built on WebGL, JavaScript, and TypeScript, from the ground-up. Increasing the ability of creators to share their 3D creations with clients, partners, friends, family, and stakeholders by giving them the ability to export their 3D creation as an less resource-intensive animated GIF that can be viewed on platforms which do not support 3D.",
+            "Designed, developed, and published a cross-browser compatible client-side mixed reality image library using TypeScript for Babylon.js, an open-source 3D engine built on WebGL, JavaScript, and TypeScript, from the ground-up. Increasing the ability of creators to share their 3D creations with clients, partners, friends, family, and stakeholders by giving them the ability to export their 3D creation as an less resource-intensive animated GIF that can be viewed on platforms which do not support 3D.",
           accomplishments: [
             "Created a client-side animated GIF encoder API using TypeScript, web workers, WebGL, and image processing techniques for Babylon.js.",
             "Published, to production, a GIF library written in TypeScript for Microsoft's open source project Babylon.js via NPM and Github.",
@@ -75,7 +75,7 @@ export const resume = {
         },
         description: {
           summary:
-            "Utilize modern technologies such as Angular to transition existing tightly coupled legacy systems and products to a series of standalone independently deployable applications to support digital transformation.",
+            "Utilize modern web technologies such as Angular, Jasmine, ect., to transition existing tightly coupled legacy systems and products to a series of standalone independently deployable applications to support digital transformation.",
           accomplishments: [
             "Created a client-side animated GIF encoder API using TypeScript, web workers, WebGL, and image processing techniques for Babylon.js.",
             "Researched and implemented solutions to reduce client-side rendering of applications.",

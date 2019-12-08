@@ -10,6 +10,7 @@ import ProjectsView from "../components/Projects/ProjectsView";
 import "./App.css";
 import "./animation.css";
 import ButtonGroup from "../components/ButtonGroup/ButtonGroup";
+import Error from "../components/error/Error";
 
 const App = () => {
   const btnGrpOptions = {
@@ -19,7 +20,7 @@ const App = () => {
   };
   return (
     <div id="App">
-      {/* <ButtonGroup {...btnGrpOptions} /> */}
+      {/* <ButtonGroup {...btnGrpOptions} /> */}1.3.10
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/projects">
@@ -28,6 +29,7 @@ const App = () => {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route component={Error} />
           {/* <Route to="/resume" component={ResumeViewer}></Route> */}
         </Switch>
         <Footer />

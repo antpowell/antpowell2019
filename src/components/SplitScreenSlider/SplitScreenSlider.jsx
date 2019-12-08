@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./SplitScreenSlider.css";
 import { resume } from "../resume";
 

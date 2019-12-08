@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Error = () => {
+const Error = () => {
   return (
     <section class="vh-100 bg-washed-blue baskerville">
       <header class="tc ph5 lh-copy">
@@ -64,3 +64,5 @@ export const Error = () => {
     </section>
   );
 };
+
+export default Error;
