@@ -12,7 +12,9 @@ const SplitScreenSlider = () => {
   const handle = React.createRef();
   const topLayer = React.createRef();
 
-  const aboutBrief = "text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl";
+  const aboutBriefTachyons = "measure-wide f7 f5-m f2-l fw1-l lh-title";
+  const aboutBriefTailwind =
+    "text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl";
 
   useEffect(props => {
     handleTracker();
@@ -43,7 +45,8 @@ const SplitScreenSlider = () => {
         <div className="layer bottom color_accent">
           <div className="content-wrap">
             <div className="content-body">
-              <p className={aboutBrief}>
+              {/* FIXME: Make description text responsive */}
+              <p className={aboutBriefTachyons}>
                 {resume.description.about.developer.brief}
               </p>
             </div>
@@ -54,7 +57,7 @@ const SplitScreenSlider = () => {
         <div className="layer top" ref={topLayer}>
           <div className="content-wrap">
             <div className="content-body">
-              <p className={aboutBrief}>
+              <p className={aboutBriefTachyons}>
                 {resume.description.about.military.brief}
               </p>
             </div>

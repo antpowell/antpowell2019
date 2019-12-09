@@ -8,13 +8,11 @@ const PDFViewer = ({ bgColor = "#212121" }) => {
       style={{
         width: "100%",
         height: "100%",
-        backgroundColor: "rgba(33, 33, 33, 1)",
+        backgroundColor: "rgba(33, 33, 33, 0.4)",
         paddingBottom: "16px"
       }}
     >
-      <SnappingSection>
-        <PDFNavigationBar />
-      </SnappingSection>
+      <PDFNavigationBar />
     </div>
   );
 };
