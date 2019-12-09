@@ -8,7 +8,8 @@
 	--secondary_color: #191e3a;
 	--accent_color: #5f6792;
 	--bg_color: #9999a1;
-	scroll-snap-type: y mandatory;
+	overflow: auto;
+	scroll-snap-type: y proximity;
 }
 
 * {

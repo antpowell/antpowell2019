@@ -18,7 +18,10 @@ const PDFNavigationBar = () => {
 
         <div className="flex-grow-0">
           <Link to="">
-            <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+            <button
+              className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+              alt="Download"
+            >
               {/* Download  */}
               <FA icon={faDownload} className="" />
             </button>
@@ -27,6 +30,7 @@ const PDFNavigationBar = () => {
             <button
               className="float-right bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r"
               id="close"
+              alt="Close"
             >
               {/* Close  */}
               <FA icon={faTimes} />

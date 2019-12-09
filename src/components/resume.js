@@ -30,7 +30,7 @@ export const resume = {
         full:
           'I\'m currently working on my M.S. Computer Science at Texas Southern University where he also was awarded his B.S. Computer Science. During my time at TSU, I was a Graduate Research Assistant, Lead System Engineer, Software Developer, and Team Leader for the Center for Research on Complex Networks Education Outreach Software Development section. Under the guidance of a mentor, Dr. Oscar Criner, I led a team of undergraduate and graduate developers in the development of an attendance management system that was adopted by professors University-wide. My passion for software development, technology, and teaching led to me being the first student from TSU to acquire the Lead position with Google Developer Groups - Houston and co-founding the largest student-run Computer Science organization as an undergraduate, the Mobile Application Development Group. My presentation, "Dynamic Data Analytics for Higher Education", won first place Oral Presenter in Computer Sciences & Information Management at the 2017 Emerging Researchers National Conference in STEM for my research on the relationship between class attendance and successful matriculation through STEM degrees in higher education and the creation of an Attendance Management System to help track and manage attendance at my University.',
         brief:
-          "Software Engineer with a passion for building beautify and beautifully functioning applications, solving systematic problems, technology, and learning."
+          "Software Engineer with a passion for building beautiful and beautifully functioning applications, solving systematic problems, technology, and learning."
       },
       military: {
         full:
