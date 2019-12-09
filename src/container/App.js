@@ -34,9 +34,9 @@ const App = () => {
           <Route to="/resume" component={PDFViewer}></Route>
           <Route component={Error} />
         </Switch>
-        <SnappingSection>
-          <Footer />
-        </SnappingSection>
+
+        <Footer />
+
         {/* // TODO: implement page transition animation
               <TG>
               CT key={location.key} timeout={300} className="fade">

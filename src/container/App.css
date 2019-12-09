@@ -9,7 +9,7 @@
 	--accent_color: #5f6792;
 	--bg_color: #9999a1;
 	overflow: auto;
-	scroll-snap-type: y proximity;
+	scroll-snap-type: y mandatory;
 }
 
 * {
