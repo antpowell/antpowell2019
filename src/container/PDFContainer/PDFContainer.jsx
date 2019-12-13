@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import pdfjs from "pdfjs-dist";
 import pdfjsWorker from "pdfjs-dist/build/pdf.worker.entry";
+import PDFDownloader from "../../components/PDFDownloader/PDFDownloader";
 
 pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
-const PDFContainer = ({ src }) => {
+const PDFContainer = ({ src, downloadResume }) => {
   const [scale, setScale] = useState(1.2);
+  const [renderingComplete, setRenderingComplete] = useState(false);
   const pdfRenderer = useRef(HTMLCanvasElement);
 
   useEffect(() => {
@@ -38,11 +40,12 @@ const PDFContainer = ({ src }) => {
       const renderTask = page.render(renderContext);
 
       await renderTask.promise;
-      console.log(page._pageInfo.rotate);
+      setRenderingComplete(true);
+      console.log(downloadResume);
     };
 
     fetchPdf();
-  }, [scale, src]);
+  }, [scale, src, downloadResume]);
 
   return (
     <div className="flex justify-center items-center m-auto">
@@ -52,6 +55,14 @@ const PDFContainer = ({ src }) => {
         width={window.innerWidth}
         height={window.innerHeight}
       ></canvas>
+      {renderingComplete && downloadResume ? (
+        <PDFDownloader
+          canvas={pdfRenderer.current}
+          startDownload={downloadResume}
+        />
+      ) : (
+        ""
+      )}
     </div>
   );
 };

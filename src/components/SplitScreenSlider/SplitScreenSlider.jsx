@@ -45,7 +45,6 @@ const SplitScreenSlider = () => {
         <div className="layer bottom color_accent">
           <div className="content-wrap">
             <div className="content-body">
-              {/* FIXME: Make description text responsive */}
               <p className={aboutBriefTachyons}>
                 {resume.description.about.developer.brief}
               </p>
