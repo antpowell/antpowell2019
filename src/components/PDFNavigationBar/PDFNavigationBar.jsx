@@ -13,7 +13,7 @@ import PDFDownloader from "../PDFDownloader/PDFDownloader";
 
 const iconStyle = "color_accent f4 ";
 const buttonStyle =
-  "link b--color_accent dib ph3 pv2 color_accent hover-bg-primary b bt bb br2";
+  "link b--color_accent dib ph3 pv2 mv3 color_accent hover-bg-primary b bt bb br2";
 
 const PDFNavigationBar = () => {
   const [downloadResume, setDownloadResume] = useState(false);

@@ -41,7 +41,6 @@ const PDFContainer = ({ src, downloadResume }) => {
 
       await renderTask.promise;
       setRenderingComplete(true);
-      console.log(downloadResume);
     };
 
     fetchPdf();

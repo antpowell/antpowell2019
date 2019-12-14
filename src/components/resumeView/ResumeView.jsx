@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedinIn,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 import bgImg from "../../res/images/showcase.jpg";
 
@@ -12,11 +18,16 @@ const BG = styled.div`
   height: calc(100vh / 1.05);
   display: grid;
 `;
+const resumeViewIconStyle = "f1 mh4 mv2 ";
 
 const ResumeView = () => {
   return (
     <BG className="">
       <div className="tc mv4 flex flex-wrap justify-center items-center content-center">
+        <div className="social-media">
+          <Icon icon={faLinkedinIn} className={resumeViewIconStyle}></Icon>
+          <Icon icon={faGithub} className={resumeViewIconStyle}></Icon>
+        </div>
         <h4 className="f4 fl w-100 ">
           Do you like what you see, cool! View my resume.
         </h4>
