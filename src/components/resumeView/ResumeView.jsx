@@ -18,15 +18,28 @@ const BG = styled.div`
   height: calc(100vh / 1.05);
   display: grid;
 `;
-const resumeViewIconStyle = "f1 mh4 mv2 ";
+const resumeViewIconStyle = "f1 mh4 mv2 color_accent hover_color_primary";
+const resumeViewButtonStyle = "";
 
 const ResumeView = () => {
   return (
     <BG className="">
       <div className="tc mv4 flex flex-wrap justify-center items-center content-center">
         <div className="social-media">
-          <Icon icon={faLinkedinIn} className={resumeViewIconStyle}></Icon>
-          <Icon icon={faGithub} className={resumeViewIconStyle}></Icon>
+          <a
+            href="https://www.linkedin.com/in/antpowell/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon icon={faLinkedinIn} className={resumeViewIconStyle}></Icon>
+          </a>
+          <a
+            href="https://github.com/antpowell/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon icon={faGithub} className={resumeViewIconStyle}></Icon>
+          </a>
         </div>
         <h4 className="f4 fl w-100 ">
           Do you like what you see, cool! View my resume.

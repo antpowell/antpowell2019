@@ -32,15 +32,34 @@ body {
 }
 
 .color_primary {
-	color: var(--primary_color)
+	color: var(--primary_color);
+	transition: all ease-in 0.3s;
 }
 
 .color_secondary {
-	color: var(--secondary_color)
+	color: var(--secondary_color);
+	transition: all ease-in 0.3s;
 }
 
 .color_accent {
-	color: var(--accent_color)
+	color: var(--accent_color);
+	transition: all ease-in 0.3s;
+}
+
+.hover_color_primary:hover {
+	color: var(--primary_color);
+	transition: all ease-in 0.3s;
+}
+
+.hover_color_secondary:hover {
+	color: var(--secondary_color);
+	transition: all ease-in 0.3s;
+}
+
+.hover_color_accent:hover {
+	color: var(--accent_color);
+	transition: all ease-in 0.3s;
+
 }
 
 .roboto {
