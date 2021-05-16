@@ -128,6 +128,14 @@ export const resume = {
     ],
     projects: [
       {
+        name: "Power of One Basketball",
+        description:
+          'Android and iOS cross platform basketball tracking system for grade school and college athletes. Commissioned by world renown former Harlem Globetrotter Mr. Reggie "Air Man" Dixon',
+        link: "https://play.google.com/store/apps/details?id=com.power_of_one.basketball",
+        image: "res/images/RollCall_Product_Mockup_small.png",
+        languages: ["Flutter", "Dart", "Java", "Kotlin", "Swift", "Google Firebase"]
+      },
+      {
         name: "Roll Call Attendance Management System",
         description:
           "Attendance Management System designed from the ground up to focus on the needs of individual professors with large classes, 45+ students. Developed to take advantage of the mobile devices every 21-century student has in their pocket.",
@@ -139,7 +147,8 @@ export const resume = {
         name: "Babylon.js Animated GIF Exporter",
         description:
           "Cross-browser client-side mixed reality webGL image processing library for Babylon.js; an open-source 3D engine built on WebGL, JavaScript, and TypeScript; allowing 3D creators to export animated GIF's of their creations.",
-        link: "https://github.com/BabylonJS/Extensions/tree/master/GIFExporter",
+        oldLink: "https://github.com/BabylonJS/Extensions/commits?author=antpowell",
+        link: "https://www.npmjs.com/package/babylonjs-gifexporter",
         image: "res/images/Microsoft_Internship_Project_Preview.gif",
         languages: ["TypeScript", "JavaScript", "GitHub", "NPM", "Node.js"]
       },
